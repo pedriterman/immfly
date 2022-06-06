@@ -20,7 +20,6 @@ from immfly_api.settings import BASE_DIR
 
 class Command(BaseCommand):
     help = ("Output all channel ordered by ratings to CSV")
-    args = '[appname.ModelName]'
 
     def handle(self, *args, **options):
         data = []
